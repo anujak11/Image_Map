@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Mapping</title>
+    <style>
+      .responsive{
+                   max-width: 100%;
+                   height: auto;
+      }
+    </style>
+    
+</head>
+<body>
+
+  <div class="responsive">
+    <h2>Image Map</h2>
+    <img src="image/women babybump.jpg" alt="workplace" usemap="#workmap" width="400px" height="350px" id="myimage" style="border: 2px solid black;margin-left: 10px;">
+     <map name="workmap">
+       <area shape="rect" coords="139,132,274,335" alt="babybump" href="image/baby.jpg">
+       <area shape="rect" coords="57,22,143,284" alt="Hand" href="image/pragnentwomen.jpg">
+       <area shape="rect" coords="240,6,394,181" alt="plant" href="image/women.jpeg">
+      </map>
+     
+       <img src="image/baby.jpg" alt="baby" usemap="#child" width="400px" height="350px" id="myimage" style="border: 2px solid black;margin-left: 10px;">
+      <map name="child">
+        <area shape="rect" coords="10,7,430,432" alt="babybump" href="image/babygirl.jpg">
+      </map>
+
+       <img src="image/babygirl.jpg" alt="babygirl" usemap="#baby" width="400px" height="350px" id="myimage" style="border: 2px solid black;margin-left: 10px;">
+       <map name="baby">
+        <area shape="rect" coords="12,9,396,345" alt="face" href="image/babyboy.jpg">
+       </map>
+
+       <img src="image/babyboy.jpg" alt="babyboy" usemap="#boy" width="400px" height="350px" style="border: 2px solid black; margin-left: 10px;">
+       <map name="boy">
+        <area shape="rect" coords="9,10,398,344" alt="babypic" href="image/baby4.jpg">
+       </map>
+       
+       <img src="image/baby4.jpg" alt="girl" usemap="#girl" width="400px" height="350px" style="border: 2px solid black; margin-left: 10px;">
+       <map name="girl">
+        <area shape="rect" coords="12,8,397,341" alt="babypic" href="image/baby5.jpg">
+       </map>
+      
+ 
+        <img src="image/baby5.jpg" alt="girl" usemap="#girlchild" width="400px" height="350px" style="border: 2px solid black;margin-left: 10px;">
+        <map name="girlchild">
+          <area shape="rect" coords="9,7,391,348" alt="girl" href="image/baby6.jpg">
+        </map>
+        
+         <img src="image/baby6.jpg" alt="boy" usemap="#children" width="400px" height="350px" style="border: 2px solid black;margin-left: 10px;">
+         <map name="children">
+          <area shape="rect" coords="13,11,392,342" alt="boy" href="image/boyy.jpg">
+         </map>
+       
+         <img src="image/boyy.jpg" alt="boy" usemap="#children" width="400px" height="350px" style="border: 2px solid black;margin-left: 10px;">
+        </div>
+
+
+</body>
+</html>
